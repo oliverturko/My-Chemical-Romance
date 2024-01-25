@@ -1,0 +1,45 @@
+/* Pagina index*/
+
+
+body{
+    
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    
+    
+    .cajaindex{
+                display: flex;
+                flex-direction:column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                padding: 3rem;
+                gap: 3rem;
+                box-sizing: auto;
+                .index-h{
+                    font-family: $fontprincipal;
+                    font-size: 30px;
+                }
+
+                .text{
+                        margin-top: 3rem;
+                        text-align: left; 
+                        line-height: 30px; 
+                    }
+                .index-img{
+                        text-align: center;
+                            
+                        }
+  
+                .links{
+                        text-decoration: none;
+                        color: white;
+                        font-style: oblique;
+                    }
+            }
+           
+                
+            
+            
+    }

@@ -1,0 +1,132 @@
+/* Pagina contacto */
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  50%; margin: 0 auto ;
+    .form {
+        --input-focus: #2d8cf0;
+        --font-color: #fefefe;
+        --font-color-sub: #7e7e7e;
+        --bg-color: #111;
+        --main-color: #fefefe;
+        padding: 20px;
+        margin: 15px;
+        background: var(--bg-color);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 10px;
+        border: 2px solid var(--main-color);
+        box-shadow: 4px 4px var(--main-color);
+        width: 300px;
+        height: auto;
+            .title {
+                color: var(--font-color);
+                font-weight: 900;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .label{
+                margin-top: -30px;
+                margin-bottom: -30px;
+                font-size: 15px;
+                font-weight: 600;
+                color: var(--font-color);
+              }
+              .input {
+                width: 250px;
+                height: 40px;
+                border-radius: 5px;
+                border: 2px solid var(--main-color);
+                background-color: var(--bg-color);
+                box-shadow: 4px 4px var(--main-color);
+                font-size: 15px;
+                font-weight: 600;
+                color: var(--font-color);
+                padding: 5px 10px;
+                outline: none;
+    
+                    .input::placeholder {
+                        color: var(--font-color-sub);
+                        opacity: 0.8;
+                    }
+                    .input:focus {
+                        border: 2px solid var(--input-focus);
+                    }
+              }
+              .inputp {
+                width: 60px;
+                height: 60px;
+                border-radius: 5px;
+                border: 2px solid var(--main-color);
+                background-color: var(--bg-color);
+                box-shadow: 4px 4px var(--main-color);
+                font-size: 15px;
+                font-weight: 600;
+                color: var(--font-color);
+                padding: 5px 10px;
+                outline: none;
+                margin-top: -15px;
+                    .inputp:focus {
+                        border: 2px solid var(--input-focus);
+                    }
+                    .inputp::placeholder {
+                        color: var(--font-color-sub);
+                        opacity: 0.8;
+                    }
+              }
+              .inputb {
+                width: 200px;
+                height: 100px;
+                border-radius: 5px;
+                border: 2px solid var(--main-color);
+                background-color: var(--bg-color);
+                box-shadow: 4px 4px var(--main-color);
+                font-size: 15px;
+                font-weight: 600;
+                color: var(--font-color);
+                padding: 5px 10px;
+                outline: none;
+                    .inputb:focus {
+                        border: 2px solid var(--input-focus);
+                    }
+                    .inputb::placeholder {
+                        color: var(--font-color-sub);
+                        opacity: 0.8;
+                    } 
+              }
+              .textarea{
+                margin-top: -30px;
+              }
+              .button-confirm {
+                margin: -20px auto 0 auto;
+                width: 120px;
+                height: 40px;
+                border-radius: 5px;
+                border: 2px solid var(--main-color);
+                background-color: var(--bg-color);
+                box-shadow: 4px 4px var(--main-color);
+                font-size: 17px;
+                font-weight: 600;
+                color: var(--font-color);
+                cursor: pointer;
+              }
+              .button-reset {
+                margin: 5px auto 0 auto;
+                width: 120px;
+                height: 40px;
+                border-radius: 5px;
+                border: 2px solid var(--main-color);
+                background-color: var(--bg-color);
+                box-shadow: 4px 4px var(--main-color);
+                font-size: 17px;
+                font-weight: 600;
+                color: var(--font-color);
+                cursor: pointer;
+              }  
+    }
+}
+ 

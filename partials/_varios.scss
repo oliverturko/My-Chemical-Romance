@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "graduate" ;
+    src: url(../fonts/Graduate-Regular.ttf);
+}
+@font-face {
+    font-family: "besley";
+    src: url(../fonts/Besley-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "nueva3";
+    src: url(../fonts/InstrumentSerif-Italic.ttf);
+}
+$fontprincipal:Georgia, 'Times New Roman', Times, serif;
+$fontsecundaria:"graduate, calibri";
+$fonttercera:"nueva3";
+.font1{
+    font-style: $fontprincipal;
+}
+font2{
+    font-style: $fontsecundaria;
+}
+/* Pagina Integrantes discografia merch*/
+.h1-int{
+    text-align: center ;
+    
+}
+.h1-disc{
+    text-align: center;
+}
+
+.h1-merch{
+    text-align: center;
+}
+
+h1{
+    font-family: $fontprincipal ;
+    text-decoration: underline;
+}
+

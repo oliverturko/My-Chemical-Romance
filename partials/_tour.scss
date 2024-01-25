@@ -1,0 +1,31 @@
+/* Pagina tour*/
+.main-tour{
+    padding: 3rem;
+    
+    .h1-tour{
+    text-align: center;
+    }
+    .tour-grid{
+        display: flex;
+        gap: 2rem;
+
+        .tour-titulo{
+            text-align: center;
+            font-family: $fontsecundaria;
+            text-decoration: underline;
+        }
+
+    }
+    .tour-text{
+        text-align: left;
+        span{
+            font-size: 30px;
+            font-family: $fontsecundaria;
+        }
+    }
+}
+.carousel-inner > .carousel-item > img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+  }

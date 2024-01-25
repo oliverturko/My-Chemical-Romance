@@ -1,0 +1,49 @@
+/* media de las paginas*/
+@media screen and (max-width: 480px) {
+    /* contacto */
+    .caja{ 
+        width: 100%;
+    }
+    /* index */
+    .cajaindex{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        align-items: center;
+        padding-left: 10px;
+            .text{
+                text-align: left; 
+                line-height: 30px; 
+                font-size: 60%;
+            }
+            .index-img{
+                width: 75vw;
+                max-width: 1000px;
+                min-width: 300px;
+                margin: auto;
+            }
+            .img1{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px rgba(15,15,15,.5);
+            }
+            .index-vid{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px rgba(15,15,15,.5);
+            }
+            .index-h3{
+            font-size: 100%;
+            }
+    }
+     /* GRID */
+   .contenedor{
+    grid-template-columns:  1fr ;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "caja0"
+    "caja2"
+    "caja3"
+    "caja4" ;}
+
+}

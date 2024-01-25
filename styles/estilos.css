@@ -1,0 +1,380 @@
+@font-face {
+  font-family: "graduate";
+  src: url(../fonts/Graduate-Regular.ttf);
+}
+@font-face {
+  font-family: "besley";
+  src: url(../fonts/Besley-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "nueva3";
+  src: url(../fonts/InstrumentSerif-Italic.ttf);
+}
+.font1 {
+  font-style: Georgia, "Times New Roman", Times, serif;
+}
+
+font2 {
+  font-style: "graduate, calibri";
+}
+
+/* Pagina Integrantes discografia merch*/
+.h1-int {
+  text-align: center;
+}
+
+.h1-disc {
+  text-align: center;
+}
+
+.h1-merch {
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+.animacion1 {
+  transition: 1s;
+}
+
+.animacion1:hover {
+  transform: translateY(15px);
+  background-color: rgb(115, 3, 3);
+}
+
+.animacion2 {
+  animation-name: agrandarse;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes agrandarse {
+  0% {
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(115, 3, 3);
+    border-radius: 25%;
+    font-family: "graduate, calibri";
+  }
+  50% {
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25%;
+    font-family: "graduate, calibri";
+  }
+  100% {
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(115, 3, 3);
+    border-radius: 25%;
+    font-family: "graduate, calibri";
+  }
+}
+/* Pagina index*/
+body {
+  background-color: black;
+  color: white;
+  margin-top: 5rem;
+}
+body .cajaindex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  gap: 3rem;
+  box-sizing: auto;
+}
+body .cajaindex .index-h {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+body .cajaindex .text {
+  margin-top: 3rem;
+  text-align: left;
+  line-height: 30px;
+}
+body .cajaindex .index-img {
+  text-align: center;
+}
+body .cajaindex .links {
+  text-decoration: none;
+  color: white;
+  font-style: oblique;
+}
+
+/* Pagina contacto */
+.caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.caja .form {
+  --input-focus: #2d8cf0;
+  --font-color: #fefefe;
+  --font-color-sub: #7e7e7e;
+  --bg-color: #111;
+  --main-color: #fefefe;
+  padding: 20px;
+  margin: 15px;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  width: 300px;
+  height: auto;
+}
+.caja .form .title {
+  color: var(--font-color);
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.caja .form .label {
+  margin-top: -30px;
+  margin-bottom: -30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+}
+.caja .form .input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+.caja .form .input .input::-moz-placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .input .input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .input .input:focus {
+  border: 2px solid var(--input-focus);
+}
+.caja .form .inputp {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+  margin-top: -15px;
+}
+.caja .form .inputp .inputp:focus {
+  border: 2px solid var(--input-focus);
+}
+.caja .form .inputp .inputp::-moz-placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .inputp .inputp::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .inputb {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+.caja .form .inputb .inputb:focus {
+  border: 2px solid var(--input-focus);
+}
+.caja .form .inputb .inputb::-moz-placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .inputb .inputb::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+.caja .form .textarea {
+  margin-top: -30px;
+}
+.caja .form .button-confirm {
+  margin: -20px auto 0 auto;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+.caja .form .button-reset {
+  margin: 5px auto 0 auto;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+/* Pagina discografia, Merch y integrantes*/
+.contenedor {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "caja0 caja0 caja2 caja2" "caja0 caja0 caja2 caja2 " "caja3 caja3 caja4 caja4 " "caja3 caja3 caja4 caja4";
+}
+.contenedor .cajas {
+  width: 400px;
+  height: auto;
+  background-color: rgb(63, 63, 63);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.contenedor .caja0 {
+  grid-area: caja0;
+}
+.contenedor .caja2 {
+  grid-area: caja2;
+}
+.contenedor .caja3 {
+  grid-area: caja3;
+}
+.contenedor .caja4 {
+  grid-area: caja4;
+}
+.contenedor .linksint {
+  text-decoration: none;
+  color: rgb(239, 58, 58);
+  font-style: oblique;
+}
+
+/* Pagina tour*/
+.main-tour {
+  padding: 3rem;
+}
+.main-tour .h1-tour {
+  text-align: center;
+}
+.main-tour .tour-grid {
+  display: flex;
+  gap: 2rem;
+}
+.main-tour .tour-grid .tour-titulo {
+  text-align: center;
+  font-family: "graduate, calibri";
+  text-decoration: underline;
+}
+.main-tour .tour-text {
+  text-align: left;
+}
+.main-tour .tour-text span {
+  font-size: 30px;
+  font-family: "graduate, calibri";
+}
+
+.carousel-inner > .carousel-item > img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+
+/* Pagina footer */
+.footer {
+  text-align: center;
+}
+.footer a {
+  margin: 1rem;
+  padding-bottom: 3rem;
+}
+
+/* media de las paginas*/
+@media screen and (max-width: 480px) {
+  /* contacto */
+  .caja {
+    width: 100%;
+  }
+  /* index */
+  .cajaindex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .cajaindex .text {
+    text-align: left;
+    line-height: 30px;
+    font-size: 60%;
+  }
+  .cajaindex .index-img {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+  }
+  .cajaindex .img1 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  }
+  .cajaindex .index-vid {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  }
+  .cajaindex .index-h3 {
+    font-size: 100%;
+  }
+  /* GRID */
+  .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "caja0" "caja2" "caja3" "caja4";
+  }
+}/*# sourceMappingURL=estilos.css.map */

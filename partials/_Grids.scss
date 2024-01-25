@@ -1,0 +1,44 @@
+/* Pagina discografia, Merch y integrantes*/
+.contenedor{
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns:  repeat(4,1fr) ;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "caja0 caja0 caja2 caja2"
+    "caja0 caja0 caja2 caja2 "
+    "caja3 caja3 caja4 caja4 "
+    "caja3 caja3 caja4 caja4" ;
+        .cajas{
+            width: 400px;
+            height: auto;
+            background-color: rgb(63, 63, 63);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; 
+        
+        }
+        .caja0{
+            grid-area: caja0;
+            
+        }
+        .caja2{
+            grid-area: caja2;
+        }
+        .caja3{
+            grid-area: caja3;
+        }
+        .caja4{
+            grid-area: caja4;
+        }
+        .linksint{
+            text-decoration: none;
+            color: rgb(239, 58, 58);
+            font-style: oblique;
+        }
+ }
+ 

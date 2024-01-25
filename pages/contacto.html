@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyChemicalRomance</title>
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/estilos.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <meta name="description" content="Conéctate con la banda a través de nuestra página de contacto. Envía tus preguntas, comentarios o consultas y mantente actualizado sobre las últimas noticias y eventos. Estamos aquí para escucharte.">
+    <meta name="keywords" content="My Chemical Romance, Contacto, Preguntas y respuestas, Comentarios de fans, Formulario de contacto, Redes sociales">
+
+
 </head>
 <body>
    <!-- encabezado -->
@@ -22,71 +26,62 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link animacion1" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="../pages/integrantes.html">Integrantes</a>
+                    <a class="nav-link animacion1" href="../pages/integrantes.html">Integrantes</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="../pages/merch.html">Merchandising</a>
+                    <a class="nav-link animacion1" href="../pages/merch.html">Merchandising</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="../pages/discografia.html">Discografia</a>
+                    <a class="nav-link animacion1" href="../pages/discografia.html">Discografia</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link " href="../pages/tour.html">Tour</a>
+                    <a class="nav-link animacion1" href="../pages/tour.html">Tour</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+                    <a class="nav-link active animacion1 animacion2" href="../pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header> 
-<main>
-    <div class="caja">
-        <h2>Para ponerse en contacto rellena el formulario:</h2>
+<main class="caja">
+    <div class="formcontacto">
         <!-- formulario de contacto  -->
-    <form>
-        <label for="nombre">
-            Nombre:
-            <input type="text" id="nombre" required>
-        </label> 
-        <br>
-        <label for="email">
-            Email:
-            <input type="email" id="email" required>
-        </label>
-        <br>
-        <label for="pais">
-            Selecciona tu pais:
-            <select name="" id="pais" required>
-                <option disabled selected>Selecciona una opcion</option>
-                <option>Argentina</option>
-                <option>Brazil</option>
-                <option>Uruguay</option>
-            </select>
-        </label>
-        <br>
-        <label>Desea recibir Newsletter?</label>
-        <br>
-        <label for="si">
-            Si
-            <input type="checkbox" name="b" id="si">
-        </label>
-        <label for="no">
-            No
-            <input type="checkbox" name="b" id="no">
-        </label>
-        <br>
-        <br>
-        <textarea name="" id="" cols="20" rows="10" required>Comentarios</textarea>
-        <br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Reset</button>
-
-    </form>
+        <form class="form">
+            <div class="title">Para ponerse en contacto rellena el formulario:</div>
+            <input class="input" name="Nombre" placeholder="Nombre" type="text" required>
+            <input class="input" name="email" placeholder="Email" type="email" required>
+            <label class="inputb"  for="pais">
+                Selecciona tu pais:
+                <select name="" id="pais" required>
+                    <option disabled selected>Selecciona una opcion</option>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Uruguay</option>
+                </select>
+            </label>
+            <br>
+            <label class="label">Desea recibir Newsletter?</label>
+            <br>
+            <label class="inputp" for="si">
+                Si
+                <input type="checkbox" name="b" id="si">
+            </label>
+            <label class="inputp" for="no">
+                No
+                <input type="checkbox" name="b" id="no">
+            </label>
+            <br>
+            <br>
+            <textarea class="textarea" name="comentarios" id="" cols="30" rows="10" required>Comentarios</textarea>
+            <br>
+            <button class="button-confirm">Enviar</button>
+            <button class="button-reset">Resetear</button>
+          </form>
     </div>
 </main>
 <footer class="footer">

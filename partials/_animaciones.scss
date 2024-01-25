@@ -1,0 +1,41 @@
+
+.animacion1{
+    transition: 1s;
+}
+
+.animacion1:hover{
+    transform: translateY(15px) ;
+    background-color: rgb(115, 3, 3);
+}
+
+.animacion2{
+    animation-name: agrandarse;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count:infinite;
+}
+@keyframes agrandarse{
+    0%{
+        font-size: 15px;
+        width: 100%;
+        background-color: rgb(115, 3, 3);
+        border-radius: 25%;
+        font-family: $fontsecundaria;
+    }
+    50%{
+        font-size: 25px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 25%;
+        font-family: $fontsecundaria;
+    }
+    100%{
+        font-size: 15px;
+        width: 100%;
+        background-color: rgb(115, 3, 3);
+        border-radius: 25%;
+        font-family: $fontsecundaria;
+    }
+}
