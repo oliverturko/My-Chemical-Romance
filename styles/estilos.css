@@ -335,9 +335,31 @@ body .cajaindex .links {
 
 /* media de las paginas*/
 @media screen and (max-width: 480px) {
+  /* animacion2 */
+  @keyframes agrandarse {
+    0% {
+      font-size: 15px;
+      width: 100%;
+      font-family: "graduate, calibri";
+    }
+    50% {
+      font-size: 25px;
+      width: 100%;
+      font-family: "graduate, calibri";
+    }
+    100% {
+      font-size: 15px;
+      width: 100%;
+      font-family: "graduate, calibri";
+    }
+  }
   /* contacto */
   .caja {
     width: 100%;
+  }
+  .caja .textarea {
+    height: 200px;
+    width: 200px;
   }
   /* index */
   .cajaindex {

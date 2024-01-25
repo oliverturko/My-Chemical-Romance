@@ -1,8 +1,30 @@
 /* media de las paginas*/
 @media screen and (max-width: 480px) {
+    /* animacion2 */
+    @keyframes agrandarse{
+        0%{
+            font-size: 15px;
+            width: 100%;
+            font-family: $fontsecundaria;
+        }
+        50%{
+            font-size: 25px;
+            width: 100%;
+            font-family: $fontsecundaria;
+        }
+        100%{
+            font-size: 15px;
+            width: 100%;
+            font-family: $fontsecundaria;
+        }
+    }
     /* contacto */
     .caja{ 
         width: 100%;
+        .textarea{
+          height: 200px;  
+          width: 200px;
+        }
     }
     /* index */
     .cajaindex{
@@ -46,4 +68,4 @@
     "caja3"
     "caja4" ;}
 
-}
+   }
