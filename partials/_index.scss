@@ -29,7 +29,15 @@ body{
                     }
                 .index-img{
                         text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                          .img1{
+                            margin-bottom: 3rem;
                             
+                          }
                         }
   
                 .links{
